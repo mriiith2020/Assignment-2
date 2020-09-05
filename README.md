@@ -23,11 +23,11 @@ Point clouds are a collection of points that represent a 3D shape or feature. Ea
 
 Point clouds are most often created by methods used in photogrammetry or remote sensing. Photogrammetry uses photographs to survey and measure an area or object. A combination of photographs taken at many angles can be used to create point clouds.
 
-![Assignment%202%200cfbca5271f7459eae92ef71b76d00e9/pc2.png](Assignment%202%200cfbca5271f7459eae92ef71b76d00e9/pc2.png)
+![README/pc2.png](README/pc2.png)
 
 Point cloud of a KITTI Scene
 
-![Assignment%202%200cfbca5271f7459eae92ef71b76d00e9/pc1.png](Assignment%202%200cfbca5271f7459eae92ef71b76d00e9/pc1.png)
+![README/pc1.png](README/pc1.png)
 
 Images of the point cloud taken from different views
 
@@ -37,7 +37,7 @@ Basically, LiDAR is a remote sensing process which collects measurements used t
 
 Although now most sources treat the word "LiDAR" as an acronym, the term originated as a combination of "light" and "radar". When LiDAR was first proposed in the 1960s, lasers and detection mechanisms were bulky and slow to operate — all that is changing rapidly.
 
-![Assignment%202%200cfbca5271f7459eae92ef71b76d00e9/kitti.png](Assignment%202%200cfbca5271f7459eae92ef71b76d00e9/kitti.png)
+![README/kitti.png](README/kitti.png)
 
 LiDAR systems send out pulses of light just outside the visible spectrum and register how long it takes each pulse to return. The direction and distance of whatever the pulse hits are recorded as a point of data. Different LiDAR units have different methods, but generally they sweep in a circle like a RADAR dish, while simultaneously moving the laser up and down.
 
@@ -45,7 +45,7 @@ Once the individual readings are processed and organised, the LiDAR data becomes
 
 The specific surface features that the laser encounters can be classified further after the initial LiDAR point cloud is processed. Elevations for the ground, buildings, forest canopy, motorway overpasses, and anything else that the laser beam encounters during the survey constitutes point cloud data.
 
-![Assignment%202%200cfbca5271f7459eae92ef71b76d00e9/Lidar_1.png](Assignment%202%200cfbca5271f7459eae92ef71b76d00e9/Lidar_1.png)
+![README/Lidar_1.png](README/Lidar_1.png)
 
 ## Task 1 - Point Cloud Registration
 
@@ -58,7 +58,7 @@ The specific surface features that the laser encounters can be classified furthe
 
 Done correctly your output should look similar to this
 
-![Assignment%202%200cfbca5271f7459eae92ef71b76d00e9/t1.png](Assignment%202%200cfbca5271f7459eae92ef71b76d00e9/t1.png)
+![README/t1.png](README/t1.png)
 
 ### Frequently Asked Questions
 
@@ -66,7 +66,7 @@ Done correctly your output should look similar to this
 
 You can see how the LiDAR was mounted on the car. All the points are with respect to the LiDAR (in LiDAR's Frame). All the poses are in the Video Camera frame. Though not transforming them into the video camera frame will not yield any difference visually.
 
-![Assignment%202%200cfbca5271f7459eae92ef71b76d00e9/v1.png](Assignment%202%200cfbca5271f7459eae92ef71b76d00e9/v1.png)
+![README/v1.png](README/v1.png)
 
 - Can I down sample the point cloud?
 
