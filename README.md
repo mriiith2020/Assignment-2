@@ -3,10 +3,10 @@
 # Instructions
 
 - This assignment is designed to get you familiar with handling Point Cloud Registration and Occupancy Grid construction
-- This is a two part assignment, Assignment 2.1 and Assignment 2.2
-    - Assignment 2.1 will be released on the 5th of September 2020
-    - Assignment 2.2 will be released on the 8th of September 2020
-- The deadline for both parts of the Assignment are 15th of September 2020.
+- This is a **two part assignment**, Assignment 2.1 and Assignment 2.2
+    - **Assignment 2.1 will be released on the 5th of September 2020**
+    - **Assignment 2.2 will be released on the 8th of September 2020**
+- The **deadline** for both parts of the Assignment are **16th of September 2020**.
 - Code must be written in Python only
 - Ensure your code is modular since you will be reusing it for future assignments
 - Submit your code files and report as a zipped file on Moodle, along with regular commits on GitHub classrooms
@@ -41,10 +41,6 @@ Although now most sources treat the word "LiDAR" as an acronym, the term origina
 
 LiDAR systems send out pulses of light just outside the visible spectrum and register how long it takes each pulse to return. The direction and distance of whatever the pulse hits are recorded as a point of data. Different LiDAR units have different methods, but generally they sweep in a circle like a RADAR dish, while simultaneously moving the laser up and down.
 
-Once the individual readings are processed and organised, the LiDAR data becomes point cloud data. The initial point clouds are large collections of 3D elevation points, which include x, y, and z, along with additional attributes such as GPS time stamps if available.
-
-The specific surface features that the laser encounters can be classified further after the initial LiDAR point cloud is processed. Elevations for the ground, buildings, forest canopy, motorway overpasses, and anything else that the laser beam encounters during the survey constitutes point cloud data.
-
 ![README/Lidar_1.png](README/Lidar_1.png)
 
 ## Task 1 - Point Cloud Registration
@@ -75,10 +71,6 @@ You can see how the LiDAR was mounted on the car. All the points are with respec
 - How do I visualize this? Matplotlib is hanging when I try to plot so many 3d points.
 
 Use Open3d to visualize this.
-
-- Can I compute the poses myself (say using ICP) and plot this?
-
-If you do that you get extra points. Do look at Open3D and its ICP library. It's very intuitive and easy to do provided you put some effort in reading the documentation.
 
 # Assignment 2.2 - Occupancy Grid Construction
 
